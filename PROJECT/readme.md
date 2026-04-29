@@ -75,13 +75,13 @@ Kemampuan Sitem:
    suhu = (tegangan - 0.5) × 100
    ```
 
-4. **Klasifikasi Suhu** — Fungsi `tentukanKategori()` menggunakan logika `if-else` untuk menentukan kategori: _Dingin_, _Normal_, atau _Panas_.
+4. **Klasifikasi Suhu** Fungsi `tentukanKategori()` menggunakan logika `if-else` untuk menentukan kategori: _Dingin_, _Normal_, atau _Panas_.
 
-5. **Kontrol LED** — Fungsi `aturLED()` menyalakan satu LED yang sesuai dan mematikan dua lainnya.
+5. **Kontrol LED** Fungsi `aturLED()` menyalakan satu LED yang sesuai dan mematikan dua lainnya.
 
-6. **Tampil LCD** — Fungsi `tampilLCD()` menampilkan nilai suhu di baris 1 dan kategori di baris 2 via I2C.
+6. **Tampil LCD**  Fungsi `tampilLCD()` menampilkan nilai suhu di baris 1 dan kategori di baris 2 via I2C.
 
-7. **Kirim Serial** — Fungsi `kirimSerial()` mengirimkan data suhu dan kategori ke Serial Monitor via UART.
+7. **Kirim Serial**  Fungsi `kirimSerial()` mengirimkan data suhu dan kategori ke Serial Monitor via UART.
 
 ---
 
